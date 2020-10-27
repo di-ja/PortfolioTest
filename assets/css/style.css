@@ -1,0 +1,128 @@
+@import url("https://use.typekit.net/zlu6xev.css");
+
+:root {
+    /* Gradient Overlay */
+    --gradient1: linear-gradient(90deg, #E4E5E1, #7A93AD);
+    /* Colors */
+    --color0: #F1F1F1;
+    --color1: #726193;
+    --color2: #E37B7C;
+    --color3: #FFE4B4;
+    --color4: #353865;
+    --color5: #EEEEEE;
+    --color6: #999999;
+}
+
+* {margin:0; padding:0}
+
+html{
+    scroll-behavior: smooth;
+}
+body { 
+    font-family: bree, sans-serif;
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-weight: 400;
+    font-size: 2.2em;
+}
+p {
+    font-weight: 300;
+    line-height: 1.4em;
+    padding-bottom: 12px;
+}
+header img {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    margin-left: -30px;
+    margin-right: auto;
+    height: 7vh;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    position: fixed;
+    bottom: 4vh;
+    left: 50%;
+    margin-left: -320px;
+    right: auto;
+    font-weight: 300;
+}
+nav ul li {
+    padding: 0 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #1D1D1B;
+}
+nav ul li a:hover {
+    color: #8C262E;
+}
+main {
+    height: 50vh;
+    margin-left: 15rem;
+}
+section {
+    width: 80rem;
+    overflow: hidden;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding-right: 15rem;
+}
+#start {
+    background: var(--gradient1);
+    /* background-image: linear-gradient(-90deg, #7A93AD, #E4E5E1); */
+}
+#start h1, p {
+    color: #333333;
+}
+#start article {
+    display: flex;
+    justify-content: space-between;
+}
+#start article img {
+    height: 50vh;
+    padding-right: 4rem;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*
+
+/*Large Desktop*
+@media (min-width:1200px) {
+    
+}
+/*Normal Desktop*
+@media (min-width:1024px) and (max-width:1199px) {
+    
+}
+/*small desktop*
+@media (min-width:980px) and (max-width:1023px) {
+    
+}
+/*For tablet *
+@media (min-width:768px) and (max-width:979px)  {
+    
+}
+/*For Mobile landscape *
+@media (min-width:480px) and (max-width:767px)  {
+    
+}
+/*For Mobile  *
+@media (min-width:320px) and (max-width:479px)  {
+}
+/* font-family: bree, sans-serif; */
